@@ -1,2 +1,1 @@
-# exploit
-Development Log
+#Development Log
