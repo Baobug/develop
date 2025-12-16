@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS salgrade
+(
+grade INT(4) PRIMARY KEY,
+losal FLOAT,
+hisal FLOAT
+);
+INSERT INTO salgrade VALUES
+(1,1000,2000),
+(2,2001,4000),
+(3,4001,9999);
+CREATE TABLE IF NOT EXISTS salary
+(id  CHAR(10) PRIMARY KEY,
+NAME CHAR(20) NOT NULL,
+sal FLOAT
+);
+INSERT INTO salary VALUES
+('1001','zhang',1800),
+('1002','li',4800),
+('1003','wang',2900),
+('1004','pan',2100),
+('1005','qian',3400);
+
+
